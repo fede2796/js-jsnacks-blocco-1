@@ -6,9 +6,9 @@ const numbarray = [];
 
 for(let i = 0; i < 6; i++){
     const number = parseInt(prompt('Inserisci un numero:'))
-    const thisNumber = number;
-    if(thisNumber % 2 !== 0){
-        numbarray.push(thisNumber);
+    //const thisNumber = number;
+    if(number % 2 !== 0){
+        numbarray.push(number);
     }
     
 }
