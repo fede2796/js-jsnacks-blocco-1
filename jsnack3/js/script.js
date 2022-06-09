@@ -8,7 +8,7 @@ for(let i = 0; i < 10 ; i++){
     console.log(thisNumber)
    
 }
-console.log(x)
+
  
 //  Stampo il risultato
 document.getElementById('result').innerHTML = x;
